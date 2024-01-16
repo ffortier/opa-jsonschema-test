@@ -1,0 +1,10 @@
+{
+    "users": {
+        "joe": {
+            "name": "joe"
+        },
+        "bob": {
+            "name": "bob"
+        }
+    }
+}
