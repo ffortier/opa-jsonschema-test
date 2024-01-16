@@ -1,8 +1,8 @@
 # Issue with jsonschma and maps
 
-Reproducing an issue with OPA type checking with json schema and a map with typed element. The workaround is to use an array which will work until I need to unify with a string key.
+I have a `jsonschema` containing a map definition of typed objects, but `opa check` is not able to detect typos in it. My current workaround is to define an array instead of a map but it might not work if I need to unify with the key as a string value.
 
-## How to reproduce
+## Steps To Reproduce
 
 - Have OPA installed. 
 
